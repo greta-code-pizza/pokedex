@@ -1,6 +1,5 @@
-
 header {
-    background: url("images/top.jpg") no-repeat center center fixed;
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,7 +8,7 @@ header {
 }
 
 .light {
-    color: #FFF;
+    color: black;
 }
 
 .light-title {
@@ -43,11 +42,6 @@ header {
 .badge-primary {
  background-color: #062c33;
 }
-
-.badge-primary-red {
-    background-color: red;
-}
-
 .card {
     min-height: 600px;
     margin-top: 30px;
@@ -63,7 +57,7 @@ header {
 }
 .layout {
     padding: 10px 0;
-    background-color: red;
+    background-color:white;
 }
 #warning {
     background-color: yellow;
@@ -85,7 +79,6 @@ footer {
     min-height: 200px;
     margin-top: 30px;
     border-top: 4px solid #000;
-    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(145,8,8,1) 100%);
 }
 
 .mar-top {
