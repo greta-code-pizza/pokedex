@@ -58,6 +58,11 @@ header {
 .badge-primary {
  background-color: #062c33;
 }
+
+.badge-primary-red {
+    background-color: red;
+}
+
 .card {
     min-height: 600px;
     margin-top: 30px;
@@ -95,6 +100,7 @@ footer {
     min-height: 200px;
     margin-top: 30px;
     border-top: 4px solid #000;
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(145,8,8,1) 100%);
 }
 
 .mar-top {
