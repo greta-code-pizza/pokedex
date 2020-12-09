@@ -1,3 +1,6 @@
+body {
+    background: #EEE;
+}
 header {
     background-color: white;
     -webkit-background-size: cover;
@@ -34,6 +37,19 @@ header {
     background-color: rebeccapurple;
     border-color: rebeccapurple;
 }
+
+.btn-outline-vol {
+    color: #62817E;
+    background-color: #fff;
+    border-color: #62817E;
+}
+
+.btn-outline-vol:hover {
+    color: #FFF !important;
+    background-color: #62817E;
+    border-color: #62817E;
+}
+
 .badge {
     margin-right: 4px;
     font-size: 60%;
@@ -45,7 +61,7 @@ header {
 .card {
     min-height: 600px;
     margin-top: 30px;
-    background-color: rgba(0,0,0,0);
+    background-color: #fff;
 }
 .card-text {
     height: 120px;
